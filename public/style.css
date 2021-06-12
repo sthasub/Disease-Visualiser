@@ -1,7 +1,18 @@
 .logo {
   display: block;
   margin: auto;
+  margin-bottom: 5px;
   height: 50px;
+}
+
+h3{
+  margin: auto;
+  margin-bottom: 5px;
+  color: green;
+  /* box-shadow: 0.5px 3px 10px 0.01px black; */
+  text-align: center;
+  box-shadow: 0.5px 3px 10px 0.01px black;
+  width: 8%;
 }
 
 .container {
