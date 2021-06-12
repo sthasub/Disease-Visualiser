@@ -1,0 +1,78 @@
+.logo {
+  display: block;
+  margin: auto;
+  height: 50px;
+}
+
+.container {
+  max-width: 950px;
+  background-color: lightgreen;
+  margin: auto;
+  height: 70vh;
+  padding: 33px;
+  overflow-y: auto;
+  /* margin-bottom: 23px; */
+  box-shadow: 0.5px 3px 10px 0.01px black;
+}
+
+.message {
+  background-color: white;
+  max-width: 40%; /* this set width maximum 40%, and 
+                  if text is small then it shrinks accordingly*/
+  border-radius: 5px;
+  box-shadow: 0.5px 3px 10px 0.01px black;
+  margin-top: 10px;
+  padding: 10px;
+}
+
+.msg{
+  word-wrap: break-word; /*break long words*/
+  white-space: pre-wrap;  /* add white space if necessary*/
+  word-break: break-word; /*break the words to prevent overflow*/
+}
+
+
+
+.message.right:before{
+  color: wheat;
+} */
+
+.user{
+  color: lightslategray;
+  font-style: italic;
+}
+
+.left, .left-chat,.joined-right {
+  float: left;
+  clear: both;
+}
+
+.right {
+  float: right;
+  clear: both;
+  background-color: lightgray;
+}
+
+.send {
+  margin-top: 1px;
+}
+
+#messageInput {
+  display: block;
+  margin: auto;
+  width: 1010px;
+  box-shadow: 0.5px 3px 10px 0.01px black;
+  outline: none;
+  border: transparent;
+  height: 30px;
+  font-family: sans-serif;
+}
+/* 
+.btn{
+    height: 30px;
+} */
+
+body {
+  background-image: linear-gradient(white, rgb(183, 209, 183));
+  height: 98vh;
+}
