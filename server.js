@@ -1,7 +1,7 @@
 const express = require("express");
 const app = express();
-const http = require("http").createServer(app);
-const PORT = process.env.PORT || 3000;
+// const http = require("http").createServer(app);
+const PORT = process.env.PORT || 3001;
 app.use(express.static('public'));
 
 app.get("/",(req,res)=>{
@@ -9,13 +9,13 @@ app.get("/",(req,res)=>{
 });
 
 
-http.listen(PORT,()=>{
+const server = app.listen(PORT,()=>{
     console.log(`listening on ${PORT}`);
 });
 
 //socket
 let users = {};
-const io = require("socket.io")(http);
+const io = require("socket.io")(server);
 
 io.on("connection", socket=>{
     socket.on("new-member-joined", name=>{
