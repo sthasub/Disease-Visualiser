@@ -39,7 +39,7 @@
   ![dashboard](./public/images/simple-chat-app.PNG)
 
   ## deployed
-  [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://health-visualiser.herokuapp.com/)
+  [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://real-time-talking.herokuapp.com/)
   
   ## Questions
     if you have questions then please feel free to contact on these addresses,
