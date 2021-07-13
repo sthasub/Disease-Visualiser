@@ -36,7 +36,7 @@
   
   ## Screenshots
   ### Chat dashboard
-  ![dashboard](./public/images/simple-chat-app.PNG)
+  ![dashboard](./public/simple-chat-app.PNG)
 
   ## deployed
   [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://real-time-talking.herokuapp.com/)
